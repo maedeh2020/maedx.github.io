@@ -40,6 +40,37 @@ body {
     background: #e5c20b;
 }
 
+/* HERO SUBSCRIBE FORM */
+.hero-form {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-form input {
+    padding: 12px;
+    width: 260px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.hero-form button {
+    padding: 12px 20px;
+    background: #FCD50C;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hero-form button:hover {
+    background: #e5c20b;
+}
+
 /* SECTIONS */
 .section {
     padding: 70px 20px;
